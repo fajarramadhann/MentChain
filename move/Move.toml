@@ -1,0 +1,18 @@
+[package]
+name = "mentchain"
+version = "1.0.0"
+authors = []
+
+[addresses]
+mentchain_addr='0x44c566c3410d021070d1c81776c003b6e503fb14a549b2433d48ab4186638287'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
+
+# 0x44c566c3410d021070d1c81776c003b6e503fb14a549b2433d48ab4186638287
