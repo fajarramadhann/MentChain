@@ -1,6 +1,7 @@
 import React from 'react'
-import { Button } from "@/components/ui/button"
+import { buttonVariants } from "@/components/ui/button"
 import { ArrowRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 export default function HomeSection() {
   return (
@@ -13,10 +14,10 @@ export default function HomeSection() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
           <span className="bold">MentChain</span> is an AI-powered career guidance platform designed to provide personalized career advice through advanced AI technology and tokenized interactions.
             </p>
-          <Button className="text-lg px-8 py-6 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+          <Link className={buttonVariants({ variant: "default" })} to={"/chat"}>
             launch Ment.AI
             <ArrowRight className="ml-2" />
-          </Button>
+          </Link>
         </div>
       </div>
     </section>

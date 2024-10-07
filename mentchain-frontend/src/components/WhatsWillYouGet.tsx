@@ -17,7 +17,7 @@ export default function WhatYouGetSection() {
           {features.map((feature, index) => (
             <Card key={index} className="shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] border-2 border-black">
               <CardHeader>
-                <feature.icon className="w-12 h-12 mb-4 text-bgLight" />
+                <feature.icon className="w-12 h-12 mb-4 text-black" />
                 <CardTitle>{feature.title}</CardTitle>
               </CardHeader>
               <CardContent>

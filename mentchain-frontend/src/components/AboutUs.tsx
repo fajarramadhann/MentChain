@@ -11,7 +11,7 @@ const aboutSections = [
 
 export default function AboutUsSection() {
   return (
-    <section id="about" className="py-36">
+    <section id="about" className="py-10">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-12 text-center">About Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

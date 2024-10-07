@@ -73,7 +73,7 @@ import {
     ) : (
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
         <DialogTrigger asChild>
-          <Button>Connect a Wallet</Button>
+          <Button variant="neutral" size="sm">Connect Wallet</Button>
         </DialogTrigger>
         <ConnectWalletDialog close={closeDialog} />
       </Dialog>
