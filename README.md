@@ -1,5 +1,7 @@
 # MentChain: AI-Based Career Guidance Platform with Tokenized Mentorship
 
+#This Project is Under Maintenance
+
 ## Description
 **MentChain** is an AI-powered career guidance platform designed to provide personalized career advice through advanced AI technology and tokenized interactions. The platform leverages blockchain to enable decentralized, transparent mentorship, offering users AI-driven insights and recommendations tailored to their career paths.
 
